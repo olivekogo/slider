@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>slider</title>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+	<style>
+
+      .container{background:url(preview.jpg); 
+		background-repeat:no-repeat;
+		height: 800px;}
+
+
+		#slideshow{max-width:500px;
+		height: auto;
+		margin:auto;
+		
+		  }
+
+		 .responsive{width: 100%;}
+
+		 #text{text-align: center;
+		 	font-family:"Lucida Console", Courier, monospace; 
+		 	 margin-top: 10px}
+
+		 .image{height: 400px;
+		 	width:400px;
+		 	margin:10px 100px 0px 400px;  }
+
+		 
+	</style>
+</head>
+<body>
+<div class="container">
+<div>
+	<img class="image " src="Olive.png" alt="My pic">
+</div>
+<div class="cycle-slideshow" id="slideshow" data-cycle-slides="> div"
+    data-cycle-fx="fade"
+    data-cycle-pause-on-hover="true"
+    data-cycle-timeout="8000"
+    >
+
+    <div class="responsive" id="text">
+    	<h1>Who is Olive?</h1>
+    	<p> A 25 year old frontend web developer who has a weakness for carbs and weights.I create elegant,clean and edgy websites.Overtime,i have learnt HTML,CSS,Bootstrap,Javascript and Jquery,I am still expanding my web development knowledge and thus a part-time student.My aim is to provide satisfactory results to my clients.So now that you know more about me,check out my portfolio,or send me an email.</p>
+    </div>
+    <div class="responsive" id="text">
+    	<h1>Education</h1>
+    	<p>I have learnt my frontend Web development skills from Coderstrust,and I have a BsC Degree in Project Management,so i know how important it is to communicate and deliver maximum results to my client within the required timeframe.</p>
+    </div>
+    <div class="responsive" id="text">
+    	<h1>General Info</h1>
+    	<p>Originally, i am from Kenya, a beautiful country in Africa,but i currently live in Spain,<i>hola!</i> </p>
+    </div>
+    
+	
+</div>
+
+</div>
+
+</body>
+</html>
